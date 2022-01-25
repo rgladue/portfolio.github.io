@@ -1,38 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Plaster&family=Wire+One&display=swap');
+
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  width: 100vw;
+  height: 100vh;
+  background: url(/public/gplay.png), linear-gradient(to bottom,rgb(252, 88, 0), rgb(75, 0, 160));
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  font-family: 'Bungee', sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
   color: white;
+  font-family: 'Plaster', sans-serif;
+  font-size: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+.welcome {
+  height: 100px;
+  width: 100px;
+  position: static;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-card {
+  height: 80%;
+  width:80%;
+  background-color: rgb(252, 245, 230);
+  border-radius: 50px 50px 0 0;
+  display: none;
+  z-index: 10;
 }
+
+.main-card--selected {
+  height: 80%;
+  width:80%;
+  background-image: linear-gradient(to bottom, rgb(88, 2, 174), rgb(210, 84, 0));
+  border-radius: 50px 50px 0 0;
+  display: block;
+  animation: grow 1.5s;
+  box-shadow: 5px 8px 15px 15px rgba(55, 54, 54, 0.5);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.content {
+  width: 97%;
+  height: 93%;
+  background-color:azure;
+  border-radius: 15px;
+  overflow:scroll;
+}
+
+i {
+  height: 100px;
+  font-size: 50px;
+  color: white;
+  margin-bottom: 25px;
+  animation:bounce 1.5s infinite;
+  justify-self: flex-end;
+}
+i:hover {
+  cursor: pointer;
+}
+@keyframes bounce {
+  0% {margin-bottom: 10px;}
+  50% {margin-bottom: 25px;}
+  100% {margin-bottom: 10px;}
+}
+
+@keyframes grow {
+  0% {margin-bottom: -100%; background-color: black;}
+ 
+  100% {margin-bottom: 0px; background-color: black;}
+  
+}
+
+.hide {
+  display: none;
+}
+
+
