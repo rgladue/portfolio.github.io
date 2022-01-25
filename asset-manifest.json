@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/rgladue-github-io/static/css/main.caec6a18.css",
+    "main.js": "/rgladue-github-io/static/js/main.bb5cfdfc.js",
+    "static/js/787.1ed0c42c.chunk.js": "/rgladue-github-io/static/js/787.1ed0c42c.chunk.js",
+    "static/media/forest.jpg": "/rgladue-github-io/static/media/forest.05f8be27a2e3dc25b551.jpg",
+    "static/media/frameworks.jpg": "/rgladue-github-io/static/media/frameworks.41547cf7828d4ad0cc1f.jpg",
+    "static/media/smart-list.png": "/rgladue-github-io/static/media/smart-list.889025d837dd57950b66.png",
+    "static/media/interview.png": "/rgladue-github-io/static/media/interview.50ba698892cb143dfeb2.png",
+    "static/media/tweeter.png": "/rgladue-github-io/static/media/tweeter.6fea29e2f8a9462e6632.png",
+    "index.html": "/rgladue-github-io/index.html",
+    "main.caec6a18.css.map": "/rgladue-github-io/static/css/main.caec6a18.css.map",
+    "main.bb5cfdfc.js.map": "/rgladue-github-io/static/js/main.bb5cfdfc.js.map",
+    "787.1ed0c42c.chunk.js.map": "/rgladue-github-io/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.caec6a18.css",
+    "static/js/main.bb5cfdfc.js"
+  ]
+}
